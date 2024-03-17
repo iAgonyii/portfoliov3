@@ -1,0 +1,22 @@
+body {
+    background-image: url('../public/background.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.contactLink {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.contactLink:hover {
+    color: #fcfc03;
+}
+
