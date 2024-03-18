@@ -41,6 +41,36 @@ const IndexPage: NextPageWithLayout = () => {
             image: "./portalgaming.jpg",
             link: "https://www.portalgaming.com/"
         },
+        {
+            name: "BlockGames",
+            image: "./blockgames.jpg",
+            link: "https://blockgames.com/"
+        },
+        {
+            name: "Juice",
+            image: "./juice.jpg",
+            link: "https://www.juice.finance/"
+        },
+        {
+            name: "Sharky",
+            image: "./sharkyfi.jpg",
+            link: "https://sharky.fi/"
+        },
+        {
+            name: "RunesTerminal",
+            image: "./runesterminal.jpg",
+            link: "https://runesterminal.io/"
+        },
+        {
+            name: "Seismic Finance",
+            image: "./seismic.jpg",
+            link: "https://www.seismic.finance/"
+        },
+        {
+            name: "Nesa",
+            image: "./nesa.jpg",
+            link: "https://www.nesa.ai/"
+        },
     ]
 
     return (
@@ -88,7 +118,7 @@ const IndexPage: NextPageWithLayout = () => {
 
             {/* Worked on projects */}
             <Title order={2} mt={"xl"} id={"projects"}
-                   style={{scrollMarginTop: "10vh", paddingBottom: "5px", borderBottom: "2px solid rgb(254, 254, 204)"}}>
+                   style={{scrollMarginTop: "10vh", paddingBottom: "5px", borderBottom: "2px solid lightgrey"}}>
                 Worked on</Title>
             <SimpleGrid
                 cols={{base: 2, sm: 3, lg: 5}}
@@ -125,7 +155,7 @@ const IndexPage: NextPageWithLayout = () => {
 
             {/* Investments */}
             <Title order={2} mt={"xl"} id={"investments"}
-                   style={{scrollMarginTop: "10vh", paddingBottom: "5px", borderBottom: "2px solid rgb(254, 254, 204)"}}>
+                   style={{scrollMarginTop: "10vh", paddingBottom: "5px", borderBottom: "2px solid lightgrey"}}>
                 Investments</Title>
             <SimpleGrid
                 cols={{base: 2, sm: 3, lg: 5}}
